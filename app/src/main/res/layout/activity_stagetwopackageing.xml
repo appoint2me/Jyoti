@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.a2mee.jyoti.com.net.activities.Stagetwopackageing">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="2dp"
+            android:background="#FFFF">
+
+            <TextView
+                android:id="@+id/Stage2packing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="17dp"
+                android:gravity="center"
+                android:text="Packaging Stage 2"
+                android:textAlignment="center"
+                android:textColor="#f8931f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/packingSCan"
+                android:layout_width="200dp"
+                android:layout_height="50sp"
+                android:layout_below="@+id/Stage2packing"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:background="#007fbb "
+                android:text="Scan"
+                android:textColor="#a4f9f5f5"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/barcodedatapack"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_below="@+id/packingSCan"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:hint="Barcode data"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/datepack"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/barcodedatapack"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:gravity="end"
+                android:text="Date:"
+                android:textAlignment="textEnd"
+                android:textColor="#161616"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/datepackd"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/barcodedatapack"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/noofpack"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/datepack"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:gravity="end"
+                android:text="Packet scanned:"
+                android:textAlignment="textEnd"
+                android:textColor="#161616"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/noofpackp"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/datepack"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="153dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/noofpack"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="17dp"
+                android:text="Item Description:"
+                android:textAlignment="center"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/itemdesp"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/noofpack"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:textAlignment="center"
+                android:textColor="#161616"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/scannedp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itemdesp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="60dp"
+                android:background="#007fbb"
+                android:gravity="center"
+                android:text="Add to packing list"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:id="@+id/ggsgs"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/scannedp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="8dp"
+                android:background="#f8931f">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="QR Code"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:text="Packet Qty"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginLeft="230dp"
+                    android:text="Size"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="290dp"
+                    android:layout_marginLeft="290dp"
+                    android:text="Total"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/stagepackingView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ggsgs"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="10dp" />
+
+
+            <Button
+                android:id="@+id/Stagesubmt"
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:layout_below="@+id/stagepackingView"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:background="#38b64a"
+                android:gravity="center"
+                android:text="Submit"
+                android:textColor="#a4f9f5f5"
+                android:textSize="20sp" />
+
+            <Button
+
+                android:id="@+id/clearsubmt"
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:layout_below="@+id/stagepackingView"
+                android:layout_marginLeft="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:background="#f4c10d1c"
+                android:gravity="center"
+                android:text="Clear"
+                android:textColor="#a4f9f5f5"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

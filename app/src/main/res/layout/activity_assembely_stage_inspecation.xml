@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2mee.jyoti.com.net.activities.Assembely_stage_inspecation">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#FFFF">
+
+        <TextView
+            android:id="@+id/nameonlineinspqqst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/relativeLayoutqq"
+            android:layout_alignRight="@+id/relativeLayoutqq"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="Assembly Stage Inspection"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/butscanfinelqqst"
+            android:layout_width="260dp"
+            android:layout_height="50sp"
+            android:layout_below="@+id/nameonlineinspqqst"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:background="#007fbb "
+            android:text="Scan"
+            android:textColor="#a4f9f5f5"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/barcodedataafqqst"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_below="@+id/butscanfinelqqst"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:hint="Barcode data"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="15dp" />
+
+        <!--  <TextView
+
+              android:id="@+id/baggqqst"
+              android:layout_width="250dp"
+              android:layout_height="40sp"
+              android:layout_below="@+id/barcodedataafqqst"
+              android:layout_marginLeft="48dp"
+              android:layout_marginRight="8dp"
+              android:text="No of Bag's/Cartons"
+              android:textAlignment="center"
+              android:textColor="#000"
+              android:textSize="15dp" />
+
+          <CheckBox
+              android:id="@+id/bagg1qqst"
+              android:layout_width="50dp"
+              android:layout_height="40sp"
+              android:layout_alignEnd="@+id/barcodedataafqqst"
+              android:layout_alignRight="@+id/barcodedataafqqst"
+              android:layout_below="@+id/barcodedataafqqst"
+              android:layout_marginEnd="12dp"
+              android:layout_marginRight="12dp"
+              android:textColor="#000"
+              android:textSize="16dp" />-->
+
+        <TextView
+            android:id="@+id/lotqttyqqst"
+            android:layout_width="150dp"
+            android:layout_height="40sp"
+            android:layout_below="@+id/barcodedataafqqst"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="18dp"
+            android:background="#544741"
+            android:text="LotQty"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40sp"
+            android:layout_below="@+id/barcodedataafqqst"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:background="#a2f4e7e7"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lotqttyqqst"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp">
+
+            <TextView
+                android:id="@+id/accepiid1fqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_alignStart="@+id/holdres1fqqst"
+                android:layout_alignLeft="@+id/holdres1fqqst"
+                android:layout_alignParentTop="true"
+                android:background="#007fbb "
+                android:text="Accept"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:id="@+id/acceptQtyqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/holdres1fqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/accepiid1fqqst"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:background="#f3732c"
+                android:text="Hold Reason"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:layout_below="@+id/acceptQtyqqst"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/Hold1fqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/holdres1fqqst"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:background="#f3732c"
+                android:text="Hold Qty"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/holdres1fqqst"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/Rejection1fqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/Hold1fqqst"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:background="#666666"
+                android:text="Rejection reason"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/Hold1fqqst"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/Reject1fqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/Rejection1fqqst"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:background="#ee1c25"
+                android:inputType="number"
+                android:text="Rejected Qty"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <EditText
+
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/Rejection1fqqst"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/oprater1fqqst"
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/Reject1fqqst"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:background="#75a337"
+                android:text="operator ID"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/Reject1fqqst"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#a2f4e7e7"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50sp"
+                android:layout_below="@+id/oprater1fqqst"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:background="#3ab54a"
+                android:text="Save"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50sp"
+                android:layout_below="@+id/oprater1fqqst"
+                android:layout_alignLeft="@+id/oprater1fqqst"
+                android:layout_marginStart="175dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="10dp"
+                android:background="#007fbb "
+                android:text="Save Another"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

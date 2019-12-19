@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="1dp"
+        android:background="#d113d7de">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#007bc1"
+            android:padding="2dp">
+
+            <!--      <ImageView
+                      android:id="@+id/logoofact"
+                      android:layout_width="70dp"
+                      android:layout_height="60dp"
+                      android:layout_alignParentLeft="true"
+                      android:layout_alignParentStart="true"
+                      android:layout_alignParentTop="true"
+                      android:foregroundGravity="center" />-->
+
+            <TextView
+                android:id="@+id/notifacationnn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="1dp"
+                android:textAlignment="center"
+                android:textColor="#ecdfdf"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

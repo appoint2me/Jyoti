@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a2mee.jyoti">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".com.net.activities.StockExchangeActivity"></activity>
+        <activity android:name=".com.net.activities.StorageStockActivity" />
+        <activity android:name=".com.net.activities.UnUsedComponentsActivity" />
+        <activity android:name=".com.net.activities.NewAssemblyActivity" />
+        <activity android:name=".com.net.activities.PendingComponentActivity" />
+        <activity android:name=".com.net.activities.OnGoingAssemblyActivity" />
+        <activity android:name=".com.net.activities.PickingActivity" />
+        <activity android:name=".com.net.activities.LocationPutAwayScanActivity" />
+        <activity android:name=".com.net.activities.LocationPutAwayActivity" />
+        <activity
+            android:name=".com.net.activities.Splash_screen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".com.net.activities.LoginActivity" />
+        <activity android:name=".com.net.activities.ProducationOrdar_count" />
+        <activity android:name=".com.net.activities.Finel_material_inspActivity" />
+        <activity android:name=".com.net.activities.Packing_list" />
+        <activity android:name=".com.net.activities.material_inspActivity" />
+        <activity android:name=".com.net.activities.Stagetwopackageing" />
+        <activity android:name=".com.net.activities.MainActivity" />
+        <activity android:name=".com.net.activities.Mainonline_AssemblieInspection" />
+        <activity android:name=".com.net.activities.Finel_QC" />
+        <activity android:name=".com.net.activities.Assembely_stage_inspecation" />
+        <activity android:name=".com.net.activities.Quaraqntine_srore" />
+        <activity android:name=".com.net.activities.MSendtoFG" />
+        <activity android:name=".com.net.activities.final_dispatch_list" />
+    </application>
+
+</manifest>
